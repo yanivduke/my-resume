@@ -10,7 +10,6 @@
 
       gtag('config', 'UA-130511288-1');
     </script>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="פיתוח תוכנה אפליקציות ייעוץ טכנולוגי devops pwa vue node service worker">
@@ -29,11 +28,9 @@
 
     <!-- Custom styles for this template -->
     <link href="css/freelancer.css" rel="stylesheet">
-
   </head>
 
   <body id="page-top" dir="rtl">
-
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
       <div class="container">
@@ -41,7 +38,9 @@
           <i class="fas fa-bars"></i>
           תפריט
         </button>
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">DukeCode</a>
+        <a class="py-1 px-0 px-lg-2 rounded js-scroll-trigger" href="#page-top" id="root">
+          <img width="300px" src="img/dukecode6.png" alt="DukeCode" title="DukeCode">
+        </a>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item mx-0 mx-lg-1">
@@ -55,46 +54,50 @@
             </li>
           </ul>
         </div>
-        <a href="/en/">EN</a>
       </div>
+      <a href="/en/">EN</a>
     </nav>
 
     <!-- Header -->
     <header class="masthead bg-white text-secondary text-center">
-      <div class="container">
-        <img width="320px" src="img/dukecode5.png" alt="DukeCode" title="DukeCode">
-        <hr class="star-dark mb-5">
-        <h2 class="font-weight-light mb-0">מוצאים פתרונות פשוטים לרעיונות מורכבים</h2>
-      </div>
-      <br />
-      <div class="container">
-        <div class="row text-center" id="preview">
-          <div class="col-sm-12 col-md-6 col-lg-4">
-            <a class="services-item d-block mx-auto" href="#services-modal-1">
-              <img height="160px" src="img/services/develop.png" alt=""><br />
-              פיתוח תוכנה
-            </a>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-4">
-            <a class="services-item d-block mx-auto" href="#services-modal-6">
-              <img height="160px" src="img/services/consulting.png" alt=""><br />              
-              ייעוץ טכנולוגי
-            </a>
-          </div>
-          <div class="col-sm-12 col-md-12 col-lg-4">
-            <a class="services-item d-block mx-auto" href="#services-modal-5">
-              <img height="160px" src="img/services/integration.png" alt=""><br />
-              אינטגרציה ו DevOps
-            </a>
+      <div id="heading">
+        <br />
+        <br />
+        <br />
+        <h2 class="font-weight mb-0">מוצאים פתרונות פשוטים לרעיונות מורכבים</h2>
+        <br />
+        <br />
+        <div class="container">
+          <div class="row text-center" id="preview">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <a class="services-item d-block mx-auto" href="#services-modal-1">
+                <img height="160px" src="img/services/develop.png" alt=""><br />
+                פיתוח תוכנה
+              </a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <a class="services-item d-block mx-auto" href="#services-modal-6">
+                <img height="160px" src="img/services/consulting.png" alt=""><br />              
+                ייעוץ טכנולוגי
+              </a>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+              <a class="services-item d-block mx-auto" href="#services-modal-5">
+                <img height="160px" src="img/services/integration.png" alt=""><br />
+                אינטגרציה ו DevOps
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-      <br /><br />
-      <div class="text-center">
-        לשיחת ייעוץ חינם, התקשר
+        <br /><br /><br />
+        <div class="text-center">
+          לשיחת ייעוץ חינם, התקשר
+          <br />
+          <img height="32px" src="img/phone.png" alt="">
+          <a href="tel:049509445" class="text-secondary"><b>04-9509445</b></a>
+        </div>
         <br />
-        <img height="32px" src="img/phone.png" alt="">
-        <a href="tel:049509445"><b>04-9509445</b></a>
+        <br />
       </div>
     </header>
 
@@ -102,7 +105,7 @@
     <section class="bg-primary text-white mb-0" id="about">
       <div class="container">
         <h2 class="text-center text-uppercase text-white">אודות יניב דוכן מייסד DukeCode</h2>
-        <hr class="star-light mb-5">
+        
         <div class="row">
           <div class="col-lg-6 col-md-4 mr-auto">
             <p id="mirror">
@@ -126,7 +129,7 @@
         <hr class="star-light">
         <div class="row">
           <div class="col-lg-12 ml-auto">
-            <p class="text-right">עבור חברות הדלק המובילות בישראל, אתר למנהל צי רכב.<br />
+            <p class="text-center">עבור חברות הדלק המובילות בישראל, אתר למנהל צי רכב.<br />
 אתר המאפשר למנהלי צי רכב הפקת דוחות שונים לצורך בקרה על צריכת הדלק ברכבים השונים בצי.<br />
 אפליקציית אנדרואיד לתדלוק לקוחות חוזרים (JavaScript, C#, Android SDK, MS-SQL, Web Services, Web API) ומועדון לקוחות - מאפשר ללקוחות לצבור נקודות שוות ערך כספי.
             </p>
@@ -135,7 +138,7 @@
         <hr class="star-light">
         <div class="row">
           <div class="col-lg-12 ml-auto">
-            <p class="text-right">תשתית לפיתוח אפליקציות ווב מתקדמות - Progressive Web Application הכוללת את הרכיבים הבאים: <br />
+            <p class="text-center">תשתית לפיתוח אפליקציות ווב מתקדמות - Progressive Web Application הכוללת את הרכיבים הבאים: <br />
 מנגנון כניסה מאובטח, קריאת נתונים ע"י REST API, תמיכה במצב Offline או עבודה מול Lie-Fi, חיבור למסד נתונים PostgreSQL ומימוש שרת REST API שרץ על Node.js.
             </p>
           </div>
@@ -143,7 +146,7 @@
         <hr class="star-light">
         <div class="row">
           <div class="col-lg-12 ml-auto">
-            <p class="text-right">פיתוח מערכת ניהול מלאי.
+            <p class="text-center">פיתוח מערכת ניהול מלאי.
 המערכת תמכה בכל התהליך: הצעות מחיר ← הזמנה ← חשבונית ← תעודת משלוח.
 המערכת כללה: אפשרויות צפייה בנתונים ממערכת ה SAP הארגונית, מנגנון לשליחת דוחות (PUSH),
 חיבור לשילוח מול ממשקי חברות שילוח UPS ו FedEx ע"י שימוש ב Web Service API, 
@@ -159,7 +162,6 @@
     <section class="services text-center" id="services">
       <div class="container">
         <h2 class="text-center text-uppercase text-secondary mb-0">השירותים</h2>
-        <hr class="star-dark mb-5">
         <div class="row">
           <div class="col-sm-12 col-md-6 col-lg-4">
             <a class="services-item d-block mx-auto" href="#services-modal-1">
@@ -168,7 +170,7 @@
                   <i class="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img height="140px" src="img/services/application.png" alt=""><br /><br />
+              <img height="140px" src="img/services/develop.png" alt=""><br />
               פיתוח תוכנה
             </a>
           </div>
@@ -179,7 +181,7 @@
                   <i class="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img height="140px" src="img/services/develop.png" alt=""><br /><br />
+              <img height="140px" src="img/services/knowledge.png" alt=""><br />
               הדרכות וסדנאות פיתוח
             </a>
           </div>
@@ -190,7 +192,7 @@
                   <i class="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img height="140px" src="img/services/upgrade.png" alt=""><br /><br />
+              <img height="140px" src="img/services/adjust.png" alt=""><br />
               שיפור ביצועים למערכות פועלות
             </a>
           </div>
@@ -201,7 +203,7 @@
                   <i class="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img height="140px" src="img/services/integration.png" alt=""><br /><br />
+              <img height="140px" src="img/services/upgrade.png" alt=""><br />
               אינטגרציה למערכות ERP
             </a>
           </div>
@@ -212,7 +214,7 @@
                   <i class="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img height="140px" src="img/services/cloud.png" alt=""><br /><br />
+              <img height="140px" src="img/services/cloud.png" alt=""><br />
               DevOps & Cloud
             </a>
           </div>
@@ -223,8 +225,8 @@
                   <i class="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img height="140px" src="img/services/consulting.png" alt=""><br /><br />
-              הדרכה, ליווי וייעוץ טכנולוגי בפיתוח תוכנה
+              <img height="140px" src="img/services/consulting.png" alt=""><br />
+              ליווי וייעוץ טכנולוגי בפיתוח תוכנה
             </a>
           </div>
         </div>
@@ -235,14 +237,10 @@
     <section id="contact" class="bg-primary text-white"> 
       <div class="container">
         <h2 class="text-center text-uppercase text-white mb-0">צור קשר</h2>
-        <hr class="star-light mb-5">
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <div class="text-right">
-              <br />
-              טלפון <a class="text-white" href="tel:049509445"><b>04-9509445</b></a>
-              <br />
-              <b></b>
+              התקשר <a class="text-white" href="tel:049509445"><b>04-9509445</b></a>
               או השאר פרטים ונחזור בהקדם.
             </div>
             <form name="sentMessage" id="contactForm" novalidate="novalidate">
@@ -294,13 +292,13 @@
     <!-- services Modal 1 -->
     <div class="services-modal mfp-hide" id="services-modal-1">
       <div class="services-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block services-modal-dismiss" href="#">
+        <a class="close-button d-md-block services-modal-dismiss" href="#">
           <i class="fa fa-3x fa-times"></i>
         </a>
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <img height="140px" src="img/services/mechanics.png" title="תשתיות">
+              <img height="140px" src="img/services/develop.png" title="פיתוח תוכנה">
               <h2 class="text-secondary text-uppercase mb-0">פיתוח תוכנה</h2>
               <hr class="star-dark mb-5">
               <p class="mb-5 text-right">
@@ -329,13 +327,13 @@
     <!-- services Modal 2 -->
     <div class="services-modal mfp-hide" id="services-modal-2">
       <div class="services-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block services-modal-dismiss" href="#">
+        <a class="close-button d-md-block services-modal-dismiss" href="#">
           <i class="fa fa-3x fa-times"></i>
         </a>
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <img class="mb-5" height="140px" src="img/services/Knowledge.png" title="תחזוקה">
+              <img class="mb-5" height="140px" src="img/services/knowledge.png" title="תחזוקה">
               <h2 class="text-secondary text-uppercase mb-0">הדרכות וסדנאות פיתוח</h2>
               <hr class="star-dark mb-5">
               <p class="mb-5 text-right">
@@ -355,13 +353,13 @@
     <!-- services Modal 3 -->
     <div class="services-modal mfp-hide" id="services-modal-3">
       <div class="services-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block services-modal-dismiss" href="#">
+        <a class="close-button d-md-block services-modal-dismiss" href="#">
           <i class="fa fa-3x fa-times"></i>
         </a>
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <img class="mb-5" height="140px" src="img/services/maintine.png" title="שיפור ביצועים">
+              <img class="mb-5" height="140px" src="img/services/adjust.png" title="שיפור ביצועים">
               <h2 class="text-secondary text-uppercase mb-0">שיפור ביצועים</h2>
               <hr class="star-dark mb-5">
               <p class="mb-5 text-right">
@@ -385,13 +383,13 @@
     <!-- services Modal 4 -->
     <div class="services-modal mfp-hide" id="services-modal-4">
       <div class="services-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block services-modal-dismiss" href="#">
+        <a class="close-button d-md-block services-modal-dismiss" href="#">
           <i class="fa fa-3x fa-times"></i>
         </a>
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <img class="mb-5" height="140px" src="img/services/integrate.jpg" title="אינטגרציה">
+              <img class="mb-5" height="140px" src="img/services/upgrade.jpg" title="אינטגרציה">
               <h2 class="text-secondary text-uppercase mb-0">אינטגרציה למערכות ERP</h2>
               <hr class="star-dark mb-5">
               <p class="mb-5 text-right">
@@ -412,13 +410,13 @@
     <!-- services Modal 5 -->
     <div class="services-modal mfp-hide" id="services-modal-5">
       <div class="services-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block services-modal-dismiss" href="#">
+        <a class="close-button d-md-block services-modal-dismiss" href="#">
           <i class="fa fa-3x fa-times"></i>
         </a>
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <img class="mb-5" height="140px" src="img/services/Cloud_Technologies.png" title="ענן">
+              <img class="mb-5" height="140px" src="img/services/cloud.png" title="ענן">
               <h2 class="text-secondary text-uppercase mb-0">DevOps & AWS Cloud</h2>
               <hr class="star-dark mb-5">
               <p class="mb-5 text-right">
@@ -440,13 +438,13 @@
     <!-- services Modal 6 -->
     <div class="services-modal mfp-hide" id="services-modal-6">
       <div class="services-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block services-modal-dismiss" href="#">
+        <a class="close-button d-md-block services-modal-dismiss" href="#">
           <i class="fa fa-3x fa-times"></i>
         </a>
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <img class="mb-5" height="140px" src="img/services/consult.png" title="ייעוץ טכנולוגי">
+              <img class="mb-5" height="140px" src="img/services/consulting.png" title="ייעוץ טכנולוגי">
               <h2 class="text-secondary text-uppercase mb-0">ייעוץ וליווי טכנולוגי בפיתוח תוכנה</h2>
               <hr class="star-dark mb-5">
               <p class="mb-5 text-right">
