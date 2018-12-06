@@ -121,9 +121,13 @@ section h2 {
   line-height: 3.1rem;
 }
 
+#logo {
+  width: 220px;
+}
+
 #mainNav {
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  Xpadding-bottom: 1rem;
   font-weight: 700;
   font-family: 'Alef';
 }
@@ -154,21 +158,30 @@ section h2 {
 }
 
 #mainNav .navbar-toggler {
-  font-size: 90%;
-  padding: 0.7rem;
+  font-size: 95%;
+  padding: 0.3rem;
 }
 
-#mirror {
-  text-align: right;
+#mirror1 {
+  text-align: center;
+}
+#mirror2 {
+  text-align: center;
 }
 
 @media (min-width: 992px) {
-  #mirror {
+  #mirror1 {
     text-align: left;
   }
+  #mirror2 {
+    text-align: right;
+  }
+  #logo {
+    width: 330px;
+  }
   header.masthead {
-    padding-top: calc(3rem + 80px);
-    Xpadding-bottom: 5rem;
+    padding-top: calc(3rem + 60px);
+    Xpadding-bottom: 3rem;
   }
   header.masthead h1 {
     font-size: 3em;
@@ -182,13 +195,13 @@ section h2 {
     line-height: 2.5rem;
   }
   #mainNav {
+    font-size: 1.2em;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
   }
   #mainNav .navbar-brand {
-    font-size: 2em;
     -webkit-transition: font-size 0.3s;
     transition: font-size 0.3s;
   }
@@ -207,9 +220,7 @@ section h2 {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
-  #mainNav.navbar-shrink .navbar-brand {
-    font-size: 1.5em;
-  }
+  
 }
 
 #heading {
@@ -219,8 +230,8 @@ section h2 {
 }
 
 header.masthead {
-  padding-top: calc(3rem + 60px);
-  Xpadding-bottom: 5rem;
+  padding-top: calc(2rem + 60px);
+  Xpadding-bottom: 3rem;
 }
 
 header.masthead h1 {
@@ -278,7 +289,7 @@ header.masthead h2 {
 }
 
 .services-modal .services-modal-dialog {
-  padding: 3rem 1rem;
+  Xpadding: 3rem 1rem;
   min-height: calc(100vh - 2rem);
   margin: 1rem calc(1rem - 8px);
   position: relative;
@@ -302,12 +313,18 @@ header.masthead h2 {
 }
 
 @media (min-width: 768px) {
-  #mirror {
+  #logo {
+    width: 280px;
+  }
+  #mirror1 {
     text-align: left;
+  }
+  #mirror2 {
+    text-align: right;
   }
   .services-modal .services-modal-dialog {
     min-height: 100vh;
-    padding: 5rem;
+    padding: 3rem;
     margin: 3rem calc(3rem - 8px);
   }
   .services-modal .services-modal-dialog h2 {
