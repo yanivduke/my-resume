@@ -23,7 +23,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	outline: 0;
 }
 body {
-	line-height: 1;
+	line-height: 19;
 }
 /* tables still need 'cellspacing="0"' in the markup */
 table {
@@ -55,8 +55,8 @@ body {
 	background-color: #e1e0db;
 	background-image: url(../images/bg.jpg);
 	background-repeat: repeat;
-	font-size:15px;
-	line-height: 17px;
+	font-size:16px;
+	line-height: 20px;
 	color:#000;
 }
 
@@ -103,7 +103,7 @@ a:hover {
 
 .wrapper-bottom {
 	width:969px;
-	height:22px;
+	height:32px;
 	padding:0;
 	margin:0 auto;
 	background-image:url(../images/bbottom.jpg);
@@ -150,7 +150,7 @@ a:hover {
 /* ----------------------------------------- */
 
 .entry {
-	width:720px;
+	width:760px;
 	display: block;
 	padding-top:25px;
 	clear: both;
@@ -174,11 +174,11 @@ h1 span {
 
 h2 {
 	width:180px;
-	height: 23px;
+	height: 20px;
 	text-align: left;
 	float:left;
-	padding:0;
-	margin-left: 40px;
+	padding:10px;
+	margin-left: 20px;
 	clear:both;
 	font-size:22px;
 	color:#315a60;
@@ -208,7 +208,8 @@ h3 {
 	width:180px;
 	text-align: left;
 	float:left;
-	margin-left: 70px;
+	margin-left: 50px;
+	padding: 20px;
 	clear:both;
 	font-size: 14px;
 	color:#709399;
@@ -246,11 +247,10 @@ h6 {
 
 em {
 	font-family: Helvetica, sans-serif;
-	font-style: italic;
 	color:#777777;
-	font-size: 14px;
+	font-size: 18px;
 	display: block;
-	padding-top:5px;
+	padding-top:15px;
 }
 
 
